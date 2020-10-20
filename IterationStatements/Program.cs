@@ -11,17 +11,22 @@ namespace IterationStatements
 
             //Create a List called "numbers" - DONE
             var numbers = new List<int>();
-            
-            //Create a variable of type int and initialize the variable with a value of 0
+
+            //Create var variable of type int and initialize the variable with a value of 0
+            var x = 0;
 
 
-
+            do
+            {
+                numbers.Add(x);
+                x++;
+            } while (x <100);
             // Create a do-while loop
             {
                 // Increment your variable by 1
 
                 // Then add your variable to "numbers"
-                numbers.Add(/* variable name goes here */);
+                //numbers.Add(/* variable name goes here */);
             }
             // While your variable is less than 100
 
